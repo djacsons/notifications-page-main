@@ -134,18 +134,28 @@ a:active{
 
 @media only screen and (max-width:600px){
     .notificationsArea{
-        width: 25rem;
+        width: 20rem;
         padding-left: 4%;
         padding-right: 4%;
     }
     .message{
-        width: 17rem;
+        width: 14rem;
         padding-right: 1rem;
     }
     .note-and-time{
-        width: 18rem;
+        width: 13rem;
     }
     .unreadDiv>.note-and-time{
         width: 80%;
+    }
+    img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .notes{
+        width: 12rem;
+    }
+    .profilePics{
+        width: 4rem;
     }
 }
