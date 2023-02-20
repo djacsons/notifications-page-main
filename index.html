@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="notificationsArea">
+
+    <div class="headArea">
+      <h2 class="blackText">Notifications</h2> 
+      <div id="unreadNum">3</div> 
+      <div id="markRead" onclick="markReadFunc()">Mark all as read</div>
+    </div>
+
+    <div class="noteDivs unreadDiv">
+      <picture class="profilePics"><img src="assets/images/avatar-mark-webber.webp" alt="profilePic1" width=50rem></picture>
+
+      <div class="note-and-time">
+        <div class="notes"> <a href ="" class="name blackText"> Mark Webber</a> reacted to your recent post <a href="">My first tournament today!</a> <div class="redDot" ></div></div> 
+        <aside class="time">1m ago</aside>
+      </div>
+
+      
+       
+    </div>
+
+    <div class="noteDivs unreadDiv">
+      <picture class="profilePics"><img src="assets/images/avatar-angela-gray.webp" alt="profilePic1" width=50rem></picture>
+
+      <div class="note-and-time">
+        <div class="notes"> <a href ="" class="name blackText">Angela Gray</a> followed you
+        <div class="redDot" ></div></div> 
+        <aside class="time">5m ago</aside>
+      </div>
+
+      
+       
+    </div>
+    
+    
+    <div class="noteDivs unreadDiv">
+      <picture class="profilePics"><img src="assets/images/avatar-jacob-thompson.webp" alt="profilePic1" width=50rem></picture>
+
+      <div class="note-and-time">
+        <div class="notes"> <a href ="" class="name blackText">Jacob Thompson</a>  has joined your group <a href="" class="clubs">Chess Club</a> <div class="redDot" ></div></div> 
+        <aside class="time">1 day ago</aside>
+      </div>
+
+      
+    </div>
+    
+    <div class="noteDivs ">
+      <picture class="profilePics"><img src="assets/images/avatar-rizky-hasanuddin.webp" alt="profilePic1" width=50rem></picture>
+
+      <div class="note-and-time">
+        <div class="notes"> <a href ="" class="name blackText">Rizky Hasanuddin</a> sent you a private message </div> 
+        <aside class="time">5 days ago</aside>
+        
+        <p class="message">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+        </p>
+      </div>
+
+    </div>
+    
+    <div class="noteDivs ">
+      <picture class="profilePics"><img src="assets/images/avatar-kimberly-smith.webp" alt="profilePic1" width=50rem></picture>
+
+      <div class="note-and-time">
+        <div class="notes"> <a href ="" class="name blackText">Kimberly Smith </a> commented on your picture</div> 
+        <aside class="time">1 week ago</aside>
+      </div>
+
+      <picture class = "commentedPic">
+        <a href=""><img src="assets/images/image-chess.webp" alt="chess-image" width="50rem" height="50rem" style="padding:0;"></a>
+      </picture>
+       
+    </div>
+
+    <div class="noteDivs ">
+      <picture class="profilePics"><img src="assets/images/avatar-nathan-peterson.webp" alt="profilePic1" width=50rem></picture>
+
+      <div class="note-and-time">
+        <div class="notes"> <a href ="" class="name blackText"> Nathan Peterson</a> reacted to your recent post <a href="">5 end-game strategies to increase your win rate</a></div> 
+        <aside class="time">2 weeks ago</aside>
+        
+        
+      </div>
+
+    </div>
+
+    <div class="noteDivs ">
+      <picture class="profilePics"><img src="assets/images/avatar-anna-kim.webp" alt="profilePic1" width=50rem></picture>
+
+      <div class="note-and-time">
+        <div class="notes"> <a href ="" class="name blackText"> Anna Kim</a> left the group <a href="" class="clubs">Chess Club</a></div> 
+        <aside class="time">2 weeks ago</aside>
+        
+        
+      </div>
+
+    </div>
+    
+  </main>
+ 
+  <footer>
+    <br>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/djacsons">Djacson Stvil</a>.
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
